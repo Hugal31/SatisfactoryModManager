@@ -22,6 +22,7 @@ module.exports = {
     'html',
   ],
   rules: {
+    'no-console': 'off',
     'linebreak-style': 0,
     'no-underscore-dangle': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
